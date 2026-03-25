@@ -1,0 +1,5 @@
+# Runtime dependency:
+numpy>=1.21
+
+# Dev / tests:
+pytest>=7.0

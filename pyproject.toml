@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portfolio-analytics"
+version = "0.1.0"
+description = "Portfolio statistics, risk analytics (correlation/beta/VaR/CVaR) and a dependency-free mean-variance optimizer."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Chunyang Gao" }]
+keywords = ["quant", "portfolio", "risk", "optimization", "sharpe", "var"]
+
+[tool.setuptools.packages.find]
+include = ["portfolio*"]
